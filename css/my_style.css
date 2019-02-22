@@ -1,0 +1,308 @@
+body{
+    background-color: #f7f7f7
+}
+body > header{
+    background-image: url('img/header_background_img_02.png');
+    background-size: 80% 100%
+}
+body > header > div{
+    position: relative
+}
+body > header .header_backgroud_img_effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-color: rgba(45,45,45,.900);
+}
+body > header .header_nav_bar{
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+body > header .header_nav_bar .sigle img{
+    width: 40px;
+    height: 35px;
+}
+body > header .header_nav_bar .nav_bar ul{
+    padding: 0px;
+    list-style: none
+}
+body > header .header_nav_bar .nav_bar ul li{
+    display: inline-block;
+}
+body > header .header_nav_bar .nav_bar ul li + li{
+    margin-left: 20px
+}
+body > header .header_nav_bar .nav_bar ul li a{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px
+}
+body > header .header_nav_bar .nav_bar ul li a:hover{
+    color: #b1b1b1;
+}
+body > header .header_nav_bar .social_media img{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 15px
+}
+body > header .header_dercription{
+    margin-top: 100px
+}
+body > header .header_dercription .item:first-child .title{
+    color: white;
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 90px
+}
+body > header .header_dercription .item:first-child input{
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    cursor: pointer
+}
+body > header .header_dercription .item:first-child a:hover{
+    text-decoration: none
+}
+body > header .header_dercription .item:nth-child(2){
+    background-color: #5100ff;
+    border-radius: 5px;
+    padding: 35px;
+    margin-top: 50px;
+    box-shadow: #7a40f9 5px 5px 50px;
+}
+body > header .header_dercription .item:nth-child(2) > strong{
+    font-family: "Raleway";
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: underline
+}
+body > header .header_dercription .item:nth-child(2) .title{
+    color: white;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: right;
+}
+body > header .header_dercription .item:nth-child(2) .description{
+    color: white;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: right
+}
+.lst_services{
+    background-color: #212224;
+    margin-top: 100px;
+    height: 400px
+}
+.lst_services .liste_one .item{
+    width: 300px;
+    margin-top: 55px;
+    text-align: center
+}
+.lst_services .liste_one .item img{
+    width: 40px;
+    height: 70px;
+    display: block;
+    margin: auto
+}
+.lst_services .liste_one .item .title{
+    color: white;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 10px;
+    font-size: 10px
+}
+.lst_services .liste_two{
+    margin-top: 100px
+}
+.lst_services .liste_two > div{
+    position: relative
+}
+.lst_services .liste_two .item_backgroud{
+    width: 700px;
+    background-color: #4900e9;
+    border-radius: 5px;
+    height: 500px;
+    margin: auto;
+    box-shadow: #7a40f9 5px 5px 50px;
+    position: relative
+}
+.lst_services .liste_two .item_gabarie{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    height: 50px;
+    margin: 0px;
+    padding-top: 70px;
+}
+.lst_services .liste_two .item{
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: gray 5px 5px 50px;
+}
+.lst_services_two{
+    margin-top: 500px;
+    text-align: center
+}
+.lst_services_two .title{
+    color: black;
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 35px
+}
+.lst_services_two .categorie{
+    color: black;
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.lst_services_two .desc{
+    color: gray;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+}
+.lst_services_two a{
+    color: blue;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 5px;
+    text-decoration: underline
+}
+.subscription_part{
+    background-color: #212224;
+    margin-top: 80px;
+    border-top: #4500df 10px solid;
+    padding-top: 25px
+}
+.subscription_part form table{
+    display: block;
+    margin: auto
+}
+.subscription_part form input{
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px
+}
+.subscription_part form input[type=submit]{
+    margin-top: 25px;
+    background-color: #4500df;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#nav_bar_menu_icon{
+    display: none
+}
+@media(max-width: 900px){
+    #nav_bar_menu_icon{
+        display: inline-block;
+        cursor: pointer
+    }
+    body > header .header_dercription .item:first-child .title{
+        font-size: 20px
+    }
+    body > header .header_dercription .item:nth-child(2) .title{
+        text-align: center
+    }
+    body > header .header_dercription .item:nth-child(2) .description{
+        text-align: center
+    }
+    .lst_services .liste_two .item_backgroud{
+        width: 70%;
+        margin: auto
+    }
+    body > header{
+        background-size: 50% 100%
+    }
+    .subscription_part form input{
+        width: 100%
+    }
+    .subscription_part form table{
+        width: 100%;
+    }
+    .subscription_part form table tr,
+    .subscription_part form table td{
+        display: block;
+        width: 100%;
+    }
+    .lst_services_two .item{
+        margin-bottom: 55px
+    }
+    .lst_services{
+        height: 1000px
+    }
+    .lst_services .liste_one .item{
+        margin: auto;
+        margin-top: 80px
+    }
+    .lst_services .liste_two .item_backgroud{
+        height: 1100px;
+        width: 100%
+    }
+    .lst_services .liste_two{
+        height: 1500px
+    }
+    .lst_services_two{
+        margin-top: 1100px
+    }
+    body > header .header_nav_bar .nav_bar{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        width: 100%;
+        background-color: black;
+        z-index: 5000;
+        display: none
+    }
+    body > header .header_nav_bar .nav_bar ul li{
+        display: block;
+        text-align: center;
+        margin-top: 35px
+    }
+    body > header .header_nav_bar .nav_bar ul li + li{
+        margin-left: 0px
+    }
+    .lst_services .liste_two .item{
+        margin: auto
+    }
+    
+}
